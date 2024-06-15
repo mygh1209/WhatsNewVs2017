@@ -6,7 +6,7 @@
 	var denominator = Math.pow((1 + rate), numberOfPayments) - 1;
 	payment = (rate + (rate / denominator)) * loanAmount;
 
-	return "<div>Your student loan payment is " + payment.toLocaleString("en-US", { style: "currency", currency: "GBP", minimumFractionDigits: 2 }) + "</div>"
+	return "<div>你的Your student loan payment is " + payment.toLocaleString("en-US", { style: "currency", currency: "GBP", minimumFractionDigits: 2 }) + "</div>"
 
 
 }

@@ -25,8 +25,14 @@ namespace BrokerageLib.PaymentSystem {
 				case DayOfWeek.Sunday:
 					tempDate = tempDate.AddDays(1); // Error in our code here!
 					break;
+				case DayOfWeek.Friday:
+					break;
 			
 
+			}
+            if (false)
+            {
+				return tempDate;
 			}
 			return tempDate;
 

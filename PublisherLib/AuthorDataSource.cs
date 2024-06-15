@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PublisherLib {
-	public class AuthorDataSource {
-  }
+namespace PublisherLib
+{
+    public class AuthorDataSource
+    {
+    }
 }

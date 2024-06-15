@@ -4,23 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleWare {
-	class RunToDemo {
+namespace ConsoleWare
+{
+    class RunToDemo
+    {
 
-		internal static void RunTo() {
-			decimal monthlyPayment;
-			decimal rate = 5.6M;
+        internal static void RunTo()
+        {
+            decimal monthlyPayment;
+            decimal rate = 5.6M;
 
-			// step into
-			monthlyPayment = Financial.CalculateMonthlyPayment(12, rate, 1200);
+            // step into
+            monthlyPayment = Financial.CalculateMonthlyPayment(12, rate, 1200);
 
-			// step over
-			monthlyPayment = Financial.CalculateMonthlyPayment(24, rate, 2400);
+            // step over
+            monthlyPayment = Financial.CalculateMonthlyPayment(24, rate, 2400);
 
-			// step out;
-			monthlyPayment = Financial.CalculateMonthlyPayment(12, rate, 1800);
+            // step out;
+            monthlyPayment = Financial.CalculateMonthlyPayment(12, rate, 1800);
 
-		}
+        }
 
-	}
+    }
 }

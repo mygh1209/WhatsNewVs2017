@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleWare {
-	class Program {
-		static void Main(string[] args) {
-
-      RunToDemo.RunTo();
-		}
-	}
+namespace ConsoleWare
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            RunToDemo.RunTo();
+        }
+    }
 }

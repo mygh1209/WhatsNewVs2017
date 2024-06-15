@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26127.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouxWebApp", "ChromeDebugging\RouxWebApp.csproj", "{9B2438C9-25DC-4817-9D7C-DF38F1E40293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerTest", "DockerTest\DockerTest.csproj", "{9C084970-7002-448D-A841-0D142BAEAF6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{9B2438C9-25DC-4817-9D7C-DF38F1E40293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B2438C9-25DC-4817-9D7C-DF38F1E40293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B2438C9-25DC-4817-9D7C-DF38F1E40293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C084970-7002-448D-A841-0D142BAEAF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C084970-7002-448D-A841-0D142BAEAF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C084970-7002-448D-A841-0D142BAEAF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C084970-7002-448D-A841-0D142BAEAF6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BA7E5EF-D92C-48C9-83BE-19AAA86A11D4}
 	EndGlobalSection
 EndGlobal
